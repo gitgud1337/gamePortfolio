@@ -1,7 +1,29 @@
-Här kan jag skriva anteckningar och sånt.
-
-Tanken är att dom ska kretsa kring design av portfolion.
+Anteckningar för utvecklandet av portfolion
+-----------------------------------------------------------------------------------------------------------
 
 ARCADE:
 En sida på portfolion där jag gör massa enkla spel och kloner av gamla kända spel tex PacMan i PIXELART.
 Unity web-deploy så man kan spela direkt i webbläsaren.
+
+-----------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=c9B4TPnak1A
+Bootstrap 5 tutorial - crash course for beginners in 1.5H (January 2021)
+
+31:38:
+Cards, IMG.
+
+39:02:
+Additions to <p> ex <del> etc.
+
+44:44:
+Responsive images.
+
+47:33:
+Spacing.
+
+1:11:
+Scrollspy
+
+1:17:
+Icons
+-----------------------------------------------------------------------------------------------------------
