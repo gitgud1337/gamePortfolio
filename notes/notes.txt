@@ -1,0 +1,7 @@
+Här kan jag skriva anteckningar och sånt.
+
+Tanken är att dom ska kretsa kring design av portfolion.
+
+ARCADE:
+En sida på portfolion där jag gör massa enkla spel och kloner av gamla kända spel tex PacMan i PIXELART.
+Unity web-deploy så man kan spela direkt i webbläsaren.
