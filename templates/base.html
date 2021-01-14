@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
     <style>
         [class*="col-md"] {
@@ -15,6 +16,7 @@
             color: #fff;
             text-align: center;
         }
+
         [class*="container"] {
             padding: 1rem;
             background-color: #9e33e5;
@@ -22,15 +24,8 @@
             color: #fff;
             text-align: center;
         }
-        [class*="row"] {
-            padding: 1rem;
-            background-color: #9e33e5;
-            border: 5px solid #fff;
-            color: #fff;
-            text-align: center;
-        }
     </style>
-    
+
     {% block head %}
 
     <title>pbjurman.tech</title>
@@ -40,8 +35,7 @@
 
 <body>
 
-    <!--NAV BAR-->
-
+    <!--NAV BAR START-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
             aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,30 +65,27 @@
             </ul>
         </div>
     </nav>
+    <!--NAV BAR END-->
 
-    <!--NAV BAR-->
-
-    {% block body %}
-
+    <!--CONTENT START-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-8">HELLO</div>
-            <div class="col-md-4">AGAIN</div>
+        <div class="col-md-16">
+            {% block body %}
+            <h1>PORTFOLIO</h1>
+            {% endblock %}
         </div>
     </div>
-
-    {% endblock %}
-
-    <!--FOOTER-->
+    <!--CONTENT END-->
 
 
+    
 
-    <!--FOOTER-->
 
+    <!---JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-
+    <!---JS-->
 </body>
 
 </html>
