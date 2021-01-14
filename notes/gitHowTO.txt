@@ -1,5 +1,6 @@
-commands
-------------------
+-Commands-
+----------------------------------------------------------------------------
+
 see all branches: git branch -l
 
 git checkout other-branch  (move between branches) 
@@ -10,14 +11,12 @@ git fetch --prune (update if new remote branches are made )
  
 git checkout -b my-new-branch  (create new branch) 
 
---------------------------------------------------
+----------------------------------------------------------------------------
 
 
 
 
-
-
-creating public repo (push local existing repository)
+-Creating public repo (push local existing repository)-
 --------------------------------------------------------------------------
 go to root dir of project
 
@@ -35,9 +34,8 @@ git push -u origin master    (origin(localmaster) -> masterbranch on github)
 
 
 
-
 -Recording Changes-
----------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 1 modify your files
 2 stage your files
@@ -46,13 +44,14 @@ git commit -m "fix: fixed and issue "
 git pull
 git push
 
-----------------------------------------------------------------
+----------------------------------------------------------------------------
 
 
 
 
 -Merging-
-----------------------------------------------------------------
+----------------------------------------------------------------------------
+
 1. checkout target branch
 
 git checkout master
@@ -66,23 +65,22 @@ git push
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -conflict (both target and source changed)-
 
-
 use mergetool with gitgui :
 (best one) kdiff3
 
-----------------------------------------------------------------
+----------------------------------------------------------------------------
+
 
 
 
 -Stashing (save for later)-
------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 (you wanna pull but dont wanna commit your changes)
 
 git stash
 
 (this will move your current working directoy)
-
 
 (after youve pulled the changes you can retrieve your stashed changes)
 
@@ -92,23 +90,4 @@ git stash pop
 
 git stash apply
 
-
-------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+----------------------------------------------------------------------------
