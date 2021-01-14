@@ -1,0 +1,114 @@
+commands
+------------------
+see all branches: git branch -l
+
+git checkout other-branch  (move between branches) 
+git status (see those potential changes)
+
+git fetch --prune (update if new remote branches are made )
+
+ 
+git checkout -b my-new-branch  (create new branch) 
+
+--------------------------------------------------
+
+
+
+
+
+
+creating public repo (push local existing repository)
+--------------------------------------------------------------------------
+go to root dir of project
+
+git init    (local repo initiated, master branch)
+
+git add .  (add all files to local repo)   "potential incoming changes"  (files stages)  git rm..unstage files
+
+git commit -m "chore: initial commit"    (commit with message by convention)
+
+git remote add origin http://github.com/User/PublicRepoName.git
+
+git push -u origin master    (origin(localmaster) -> masterbranch on github)
+----------------------------------------------------------------------------
+
+
+
+
+
+-Recording Changes-
+---------------------------------------------------------------------
+
+1 modify your files
+2 stage your files
+git add <path>    (path to file changed)
+git commit -m "fix: fixed and issue "
+git pull
+git push
+
+----------------------------------------------------------------
+
+
+
+
+-Merging-
+----------------------------------------------------------------
+1. checkout target branch
+
+git checkout master
+
+2. merge
+
+git merge <source branch> src/Java.java
+
+git push
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-conflict (both target and source changed)-
+
+
+use mergetool with gitgui :
+(best one) kdiff3
+
+----------------------------------------------------------------
+
+
+
+-Stashing (save for later)-
+-----------------------------------------------------------------
+
+(you wanna pull but dont wanna commit your changes)
+
+git stash
+
+(this will move your current working directoy)
+
+
+(after youve pulled the changes you can retrieve your stashed changes)
+
+git stash pop
+
+(if you dont wanna consume stash)
+
+git stash apply
+
+
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
