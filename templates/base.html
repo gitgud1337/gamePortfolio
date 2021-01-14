@@ -16,6 +16,7 @@
             color: #fff;
             text-align: center;
         }
+
         [class*="col-md-16 content"] {
             padding: 1rem;
             background-color: #4b90ab;
@@ -23,9 +24,18 @@
             color: #fff;
             text-align: center;
         }
+
         [class*="container"] {
             padding: 1rem;
             background-color: #6e3dff;
+            border: 2px solid #fff;
+            color: #fff;
+            text-align: center;
+        }
+
+        [class*="row"] {
+            padding: 1rem;
+            background-color: #a282ff;
             border: 2px solid #fff;
             color: #fff;
             text-align: center;
@@ -74,22 +84,38 @@
     <!--NAV BAR END-->
 
     <!--CONTENT START-->
-    <div class="container">
-        <div class="col-md-16 title">
-            {% block body_title %}
-            <h1>PORTFOLIO</h1>
-            {% endblock %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-16 title">
+                {% block body_title %}
+                <h1>PORTFOLIO</h1>
+                {% endblock %}
+            </div>
         </div>
-        <div class="col-md-16 content">
-            {% block body_content %}
-            <h1>CONTENT</h1>
-            {% endblock %}
+        {% block body_image %}
+        <div class="row">
+            <div class="col-md-6 title">
+                <img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/09/Hades-cover-jpeg.jpg"
+                    class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-6 title">
+                <img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/09/Hades-cover-jpeg.jpg"
+                    class="img-fluid" alt="...">
+            </div>
+        </div>
+        {% endblock %}
+        <div class="row">
+            <div class="col-md-16 content">
+                {% block body_content %}
+                <h1>CONTENT</h1>
+                {% endblock %}
+            </div>
         </div>
     </div>
     <!--CONTENT END-->
 
 
-    
+
 
 
     <!---JS-->
