@@ -7,6 +7,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <style>
+        [class*="col-md"] {
+            padding: 1rem;
+            background-color: #33b5e5;
+            border: 2px solid #fff;
+            color: #fff;
+            text-align: center;
+        }
+        [class*="container"] {
+            padding: 1rem;
+            background-color: #9e33e5;
+            border: 2px solid #fff;
+            color: #fff;
+            text-align: center;
+        }
+        [class*="row"] {
+            padding: 1rem;
+            background-color: #9e33e5;
+            border: 5px solid #fff;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+    
     {% block head %}
 
     <title>pbjurman.tech</title>
@@ -52,8 +76,11 @@
 
     {% block body %}
 
-    <div class="starter-template text-center py-5 px-3">
-        <h1>CONTENT</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">HELLO</div>
+            <div class="col-md-4">AGAIN</div>
+        </div>
     </div>
 
     {% endblock %}
