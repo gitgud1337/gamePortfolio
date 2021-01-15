@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
     <style>
-        [class*="col-md-16 title"] {
-            padding: 1rem;
+        [class*="col-md-6 offset-md-3 title"] {
+            padding: 2rem;
             background-color: #46545e;
             border: 2px solid #86a2ad;
             color: #fff;
             text-align: center;
         }
 
-        [class*="col-md-16 content"] {
-            padding: 1rem;
+        [class*="col-md-6 offset-md-3 content"] {
+            padding: 2rem;
             background-color: #5e7280;
             border: 2px solid #cbe7f2;
             color: #fff;
@@ -26,7 +26,7 @@
         }
 
         [class*="container"] {
-            padding: 1rem;
+            padding: 2rem;
             background-color: #44364d;
             border: 2px solid #fff;
             color: #fff;
@@ -34,10 +34,10 @@
         }
 
         [class*="row"] {
-            padding: 1rem;
-            background-color: #344536;
-            border: 2px solid #fff;
-            color: #fff;
+            padding: 2rem;
+            /*background-color: #344536;
+            /*border: 2px solid #fff;
+            color: #fff;*/
             text-align: center;
         }
     </style>
@@ -86,10 +86,10 @@
     <!--CONTENT START-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-16 title rounded">
-                {% block body_title %}
-                {% endblock %}
+            {% block body_title %}
+            <div class="col-md-6 offset-md-3 title rounded">
             </div>
+            {% endblock %}
         </div>
         {% block body_image %}
         <div class="row">
@@ -105,7 +105,7 @@
         {% endblock %}
         <div class="row">
             {% block body_content %}
-            <div class="col-md-16 content">
+            <div class="col-md-6 offset-md-3 content">
                 <p class="lead">CONTENT GOES HERE</p>
             </div>
             {% endblock %}
