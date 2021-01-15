@@ -11,7 +11,7 @@
     <style>
         [class*="col-md-16 title"] {
             padding: 1rem;
-            background-color: #0080b3;
+            background-color: #46545e;
             border: 2px solid #86a2ad;
             color: #fff;
             text-align: center;
@@ -19,7 +19,7 @@
 
         [class*="col-md-16 content"] {
             padding: 1rem;
-            background-color: #4b90ab;
+            background-color: #5e7280;
             border: 2px solid #cbe7f2;
             color: #fff;
             text-align: center;
@@ -27,7 +27,7 @@
 
         [class*="container"] {
             padding: 1rem;
-            background-color: #6e3dff;
+            background-color: #44364d;
             border: 2px solid #fff;
             color: #fff;
             text-align: center;
@@ -35,7 +35,7 @@
 
         [class*="row"] {
             padding: 1rem;
-            background-color: #a282ff;
+            background-color: #344536;
             border: 2px solid #fff;
             color: #fff;
             text-align: center;
@@ -86,9 +86,8 @@
     <!--CONTENT START-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-16 title">
+            <div class="col-md-16 title rounded">
                 {% block body_title %}
-                <h1>PORTFOLIO</h1>
                 {% endblock %}
             </div>
         </div>
@@ -105,11 +104,11 @@
         </div>
         {% endblock %}
         <div class="row">
+            {% block body_content %}
             <div class="col-md-16 content">
-                {% block body_content %}
-                <h1>CONTENT</h1>
-                {% endblock %}
+                <p class="lead">CONTENT GOES HERE</p>
             </div>
+            {% endblock %}
         </div>
     </div>
     <!--CONTENT END-->

@@ -1,8 +1,13 @@
 {% extends 'base.html' %}
 
-<!--head block below-->
-
-<!--body block below-->
+{% block body_content %}
+<div class="col-md-16 content rounded-pill">
+    {% block info_body_content %}
+    <p class="lead">Information about me</p>
+    {% endblock %}
+</div>
+{% endblock %}
 
 {% block body_image %}
+
 {% endblock %}
