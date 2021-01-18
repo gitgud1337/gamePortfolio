@@ -14,53 +14,29 @@ body {
 }
 
 .page-header {
-    margin-top: 8rem;
-    font-size: 2rem;
+    margin-top: 4rem;
+    font-size: 1.25rem;
     color:blanchedalmond;
 }
 
-/*.navbar {
-    background: rgb(0,0,0);
-}*/
-
-/*[class*="nav"] {
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
+.page-info {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color:blanchedalmond;
 }
 
-[class*="dropdown-menu"] {
-    background-color: #000000;
-    color: #fff;
+.page-project {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color:blanchedalmond;
 }
 
-[class*="dropdown-item"] {
-color: #fff;
-}
-
-[class*="col-md-6 offset-md-3 title"] {
-    padding: 2rem;
-    background-color: #46545e;
-    border: 2px solid #86a2ad;
-    color: #fff;
-    text-align: center;
-}
-
-[class*="col-md-6 offset-md-3 content"] {
-    padding: 2rem;
+.infoContent {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color:black;
     background-color: #5e7280;
     border: 2px solid #cbe7f2;
-    color: #fff;
     text-align: center;
-    }
-
-[class*="container"] {
     padding: 2rem;
-    background-color: #44364d;
-    text-align: center;
-    }
-
-    [class*="row"] {
-    padding: 2rem;
-    text-align: center;
-}*/
+}
