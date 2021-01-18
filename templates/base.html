@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
     <style>
-        [class*="nav"] {
+        /*[class*="nav"] {
             background-color: #000000;
             color: #fff;
             text-align: center;
@@ -22,7 +22,7 @@
 
         [class*="dropdown-item"] {
             color: #fff;
-        }
+        }*/
 
         [class*="col-md-6 offset-md-3 title"] {
             padding: 2rem;
@@ -62,39 +62,42 @@
 <body>
 
     <!--NAV BAR START-->
-    <nav class="navbar navbar-expand-lg">
-        <!--add collapse button for mobile-->
-        <button 
-        class="navbar-toggler" 
-        type="button" data-toggle="collapse" 
-        data-target="#navbarNav" 
-        aria-controls="navbarNav" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">PATRIC BJURMAN</a> <!--change to an picture and move to the left-->
-                </li>
-                <li class="nav-item dropdown"> <!--move all items to the right-->
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown"
-                        aria-expanded="false">PROJECTS</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown08">
-                        <a class="dropdown-item" href="/cyberpunktrip">A Cyber Punk Trip</a>
-                        <a class="dropdown-item" href="/portfolio">Portfolio</a>
-                        <!--a class="dropdown-item" href="#">Other games here</a-->
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/resume">RESUME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">ABOUT</a>
-                </li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="container">
+            <a class="navbar-brand" href="/"><img src="static/art/img/logoTransBig.png" alt="" widht="25" height="25"></a>
+            <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNav"
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" 
+                        href="#" id="navbarDropdownMenuLink" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false">
+                          PROJECTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="/cyberpunktrip">A Cyber Punk Trip</a>
+                          <a class="dropdown-item" href="portfolio">Portfolio</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/resume">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </nav>
     <!--NAV BAR END-->
 
@@ -109,10 +112,14 @@
         <div class="row">
             {% block body_content %}
             <div class="col-md-6 offset-md-3 content">
-                <p class="lead">CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERE
-                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERE
-                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERE
-                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERE
+                <p class="lead">CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERECONTENT GOES HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
                 </p>
             </div>
             {% endblock %}
@@ -125,8 +132,14 @@
 
 
     <!---JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <!---JS-->
 </body>

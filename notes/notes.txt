@@ -27,3 +27,46 @@ Scrollspy
 1:17:
 Icons
 -----------------------------------------------------------------------------------------------------------
+
+OLD NAV:
+
+<nav class="navbar navbar-expand-lg">
+        <button 
+        class="navbar-toggler" 
+        type="button" data-toggle="collapse" 
+        data-target="#navbarNav" 
+        aria-controls="navbarNav" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-brand" href="/">
+                        <img src="art/img/logoTransBig.jpg" alt="logoTransBig" width="30" height="30">
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown"
+                        aria-expanded="false">PROJECTS</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown08">
+                        <a class="dropdown-item" href="/cyberpunktrip">A Cyber Punk Trip</a>
+                        <a class="dropdown-item" href="/portfolio">Portfolio</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/resume">RESUME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">ABOUT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+-----------------------------------------------------------------------------------------------------------
+
+https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
+
+-----------------------------------------------------------------------------------------------------------
