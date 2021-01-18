@@ -41,11 +41,11 @@ body {
 }
 
 .infoContent {
-    margin-top: 3.8rem;
+    margin-top: 5rem;
     font-size: 1.25rem;
     color:#c2bbae;
     text-align: center;
-    padding: 4rem;
+    padding: 8rem;
     background: rgb(103,71,112);
     background: radial-gradient(circle, 
     rgba(103,71,112,1) 0%, 
@@ -61,6 +61,10 @@ body {
     color: #c2bbae;
 }
 
-.navbar-collapse {
+.dropdown {
     color: #1c1b1a;
 }
+
+/*.navbar-nav .open .dropdown-menu {
+    background-color:#1c1b1a;
+}*/
