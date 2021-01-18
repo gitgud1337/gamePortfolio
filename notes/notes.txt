@@ -1,9 +1,9 @@
 Anteckningar för utvecklandet av portfolion
 -----------------------------------------------------------------------------------------------------------
 
-ARCADE:
-En sida på portfolion där jag gör massa enkla spel och kloner av gamla kända spel tex PacMan i PIXELART.
-Unity web-deploy så man kan spela direkt i webbläsaren.
+HARDREFRESH OF WEB BROWSER:
+
+CTRL + F5 (CTRL + FN + 5 on DUCKY)
 
 -----------------------------------------------------------------------------------------------------------
 https://www.youtube.com/watch?v=c9B4TPnak1A
@@ -69,4 +69,37 @@ OLD NAV:
 
 https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
 
+-----------------------------------------------------------------------------------------------------------
+<div class="container-fluid">
+        <div class="row">
+            {% block body_title %}
+            {% endblock %}
+        </div>
+        {% block body_image %}
+        {% endblock %}
+        
+        <div class="row">
+            {% block body_content %}
+            <div class="col-md-6 offset-md-3 content">
+                <p class="lead">CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERECONTENT GOES HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                    CONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES HERECONTENT GOES
+                    HERE
+                </p>
+            </div>
+            {% endblock %}
+        </div>
+    </div>
 -----------------------------------------------------------------------------------------------------------
