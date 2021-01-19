@@ -28,9 +28,15 @@ body {
     rgba(74,86,114,1) 100%); */
 }
 
-.footer {
+/*.footer {
     padding: 1rem;
     margin-top: 2rem;
+    position: absolute;
+}*/
+
+.projectTitle {
+    padding: 2rem;
+    background: #8c6d89;
 }
 
 .gradient {
