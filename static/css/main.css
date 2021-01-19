@@ -28,6 +28,11 @@ body {
     rgba(74,86,114,1) 100%); */
 }
 
+.footer {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
 .gradient {
     background: rgb(5,92,67);
     background: linear-gradient(90deg, 
