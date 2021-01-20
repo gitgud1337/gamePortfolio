@@ -4,37 +4,26 @@ body {
     font-size: 1rem;
     background-color: #1c1b1a;
     font-family: 'Roboto Mono', monospace;
-    /*background: rgb(103,71,112);
-    background: radial-gradient(circle, 
-    rgba(103,71,112,1) 0%, 
-    rgba(28,27,26,1) 30%, 
-    rgba(74,86,114,1) 100%);*/
+    color:#c2bbae;
 }
-
-/*img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-}*/
 
 .forNav {
     color:#c2bbae;
     background: #1c1b1a;
     padding: 1.1rem;
-    /*background: rgb(103,71,112);
-    background: radial-gradient(circle, 
-    rgba(103,71,112,1) 0%, 
-    rgba(95,115,84,1) 30%, 
-    rgba(74,86,114,1) 100%); */
 }
 
 .bd-footer {
     background: #1c1b1a;
 }
 
-.projectTitle {
+.projectIntro {
     padding: 2rem;
-    background: #8c6d89;
+    /*background: #8c6d89;*/
+    /*background: #405259;*/
+    /*background: #444f45;*/
+    /*background: #564c5e;*/
+    background: #3c3342;
 }
 
 .gradient {
@@ -42,31 +31,27 @@ body {
     background: linear-gradient(90deg, 
     rgba(5,92,67,1) 0%, 
     rgba(121,9,118,1) 33%, 
-    rgba(29,30,42,1) 100%); 
+    rgba(29,30,42,1) 100%);
 }
 
 .page-header {
     margin-top: 4.9rem;
     font-size: 1.25rem;
-    color:#c2bbae;
 }
 
 .page-info {
     margin-top: 4.9rem;
     font-size: 1.25rem;
-    color: #c2bbae;
 }
 
 .page-project {
     margin-top: 4.9rem;
     font-size: 1.25rem;
-    color: #c2bbae;
 }
 
 .infoContent {
     margin-top: 8rem;
     font-size: 1.25rem;
-    color:#c2bbae;
     text-align: center;
     padding: 8rem;
     background: rgb(103,71,112);
@@ -74,6 +59,14 @@ body {
     rgba(103,71,112,1) 0%, 
     rgba(95,115,84,1) 30%, 
     rgba(74,86,114,1) 100%); 
+}
+
+.projectMechanic {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 4rem;
+    background: #3c3342;
 }
 
 .dropdown-item {
@@ -86,13 +79,4 @@ body {
 
 .dropdown {
     color: #1c1b1a;
-}
-
-/*.navbar-nav .open .dropdown-menu {
-    background-color:#1c1b1a;
-}*/
-
-.mainCon { 
-    min-height: 100%;
-    height: 100%;
 }
