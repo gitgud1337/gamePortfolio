@@ -80,3 +80,5 @@ body {
 .dropdown {
     color: #1c1b1a;
 }
+
+.nav-link:hover { color: #ffffff; }
