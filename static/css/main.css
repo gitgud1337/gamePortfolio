@@ -4,7 +4,8 @@ body {
     font-size: 1rem;
     background-color: #1c1b1a;
     font-family: 'Roboto Mono', monospace;
-    color:#c2bbae;
+    /*color:#c2bbae;*/
+    color: #ab9771;
 }
 
 .forNav {
@@ -65,9 +66,22 @@ body {
     margin-top: 4rem;
     font-size: 1.25rem;
     text-align: center;
-    padding: 4rem;
+    padding: 2rem;
     background: #3c3342;
+    color: #ab9771;
 }
+
+.codeSection {
+    margin-top: 2rem;
+}
+
+.codeButton {
+    margin-top: 2rem;
+}
+
+.mechLine {
+    border-top: 2px solid #61594b;
+  }
 
 .dropdown-item {
     color: #c2bbae;
@@ -82,3 +96,9 @@ body {
 }
 
 .nav-link:hover { color: #ffffff; }
+
+.mainIMG {
+    border-width: 8px;
+    border-style: solid;
+    border-color: #1c1b1a;
+}
