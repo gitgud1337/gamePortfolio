@@ -9,7 +9,7 @@ body {
 }
 
 .forNav {
-    color:#c2bbae;
+    color:#ab9771;
     background: #1c1b1a;
     padding: 1.1rem;
 }
@@ -84,11 +84,11 @@ body {
   }
 
 .dropdown-item {
-    color: #c2bbae;
+    color: #ab9771;
 }
 
 .nav-link {
-    color: #c2bbae;
+    color: #ab9771;
 }
 
 .dropdown {
@@ -101,4 +101,16 @@ body {
     border-width: 8px;
     border-style: solid;
     border-color: #1c1b1a;
+}
+
+.projectIMG {
+    padding: 8px;
+}
+
+.icon {
+    color: #ab9771;
+}
+
+.icon:hover {
+    color: #ffffff;
 }

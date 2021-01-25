@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-6 offset-md-2">
                 {% block project_img %}
-                <img src="static/art/img/smallerPrintFromGame.png">
+                <img src="static/art/img/smallerPrintFromGame.png" class="projectIMG">
                 {% endblock %}
             </div>
         </div>
@@ -32,6 +32,14 @@
         <div class="col">
             <p class="lead">
                 {% block project_info %}
+                {% endblock %}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="lead">
+                {% block project_repo %}
                 {% endblock %}
             </p>
         </div>
