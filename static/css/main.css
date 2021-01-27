@@ -66,7 +66,7 @@ body {
     margin-top: 4rem;
     font-size: 1.25rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     background: #3c3342;
     color: #ab9771;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 .codeButton {
-    margin-top: 2rem;
+    margin-top: 0.8rem;
 }
 
 .mechLine {
@@ -104,7 +104,7 @@ body {
 }
 
 .projectIMG {
-    padding: 8px;
+    padding-bottom: 50px;
 }
 
 .icon {
@@ -119,4 +119,13 @@ body {
     background: #ab9771;
     color: #ffffff;
     max-height: 25px;
+}
+
+.mechList {
+    display: inline-block;
+    text-align: left;
+}
+
+.mechListDiv{
+    text-align: left;
 }

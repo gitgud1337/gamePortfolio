@@ -17,18 +17,58 @@ an action packed trip through time and space
   </svg></a>
 {% endblock %}
 
+
 {% block mechanic_title %}
 <h1>BRAIN MACHINE</h1>
 {% endblock %}
 {% block mechanic_info %}
 <p>the stack based state machine driving all enemy behavior</p>
 {% endblock %}
+
+<!--ENGINE LANGUAGE ETC-->
+
+{% block infoAboutCode %}
+<p>TEXT ABOUT BranMachine</p>
+{% endblock %}
+{% block code_button %}
+BrainMachine
+{% endblock %}
 {% block mechanic_code %}
 <script src="https://gitlab.com/devbro/acyberpunktrip/-/snippets/2064716.js"></script>
 {% endblock %}
-{% block mechanic_codeE %}
-<script src="https://gitlab.com/devbro/acyberpunktrip/-/snippets/2064716.js"></script>
+
+{% block mechanic_codeEXTRA %}
+<p>TEXT ABOUT BrainUser</p>
+<a class="btn btn-outline-dark btn-lg codeButton" data-toggle="collapse" href="#block1B" role="button"
+  aria-expanded="false" aria-controls="block1B">{% block code_button1B %}BrainUser{% endblock %}</a>
+<div class="col codeSection">
+  <div class="collapse multi-collapse" id="block1B">
+    <div class="card card-body">
+      {% block mechanic_code1B %}
+      <script src="https://gitlab.com/devbro/acyberpunktrip/-/snippets/2066143.js"></script>
+      {% endblock %}
+    </div>
+  </div>
+</div>
+
+<hr class="mechLine">
+
+<p>TEXT ABOUT BrainState</p>
+<a class="btn btn-outline-dark btn-lg codeButton" data-toggle="collapse" href="#block1C" role="button"
+  aria-expanded="false" aria-controls="block1C">{% block code_button1C %}BrainState{% endblock %}</a>
+<div class="col codeSection">
+  <div class="collapse multi-collapse" id="block1C">
+    <div class="card card-body">
+      {% block mechanic_code1C %}
+      <script src="https://gitlab.com/devbro/acyberpunktrip/-/snippets/2066144.js"></script>
+      {% endblock %}
+    </div>
+  </div>
+</div>
+
+<hr class="mechLine">
 {% endblock %}
+
 
 {% block mechanic2_title %}
 <h1>BULLET HELL SYSTEM</h1>
@@ -36,15 +76,21 @@ an action packed trip through time and space
 {% block mechanic2_info %}
 <p>the system for the bullet hell frenzy</p>
 {% endblock %}
+{% block code_button2 %}
+BulletHellSystem
+{% endblock %}
 {% block mechanic2_code %}
 <script src="https://gitlab.com/devbro/acyberpunktrip/-/snippets/2064721.js"></script>
 {% endblock %}
 
+
 {% block mechanic3 %}
 {% endblock %}
 
+
 {% block mechanic4 %}
 {% endblock %}
+
 
 {% block mechanic5 %}
 {% endblock %}
