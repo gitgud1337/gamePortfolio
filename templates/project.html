@@ -6,11 +6,11 @@
 
 {% block body_header %}
 <header class="page-project gradient">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 offset-md-2">
+    <div class="container pt-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
                 {% block project_img %}
-                <img src="static/art/img/smallerPrintFromGame.png" class="projectIMG">
+                <img src="static/art/img/smallerPrintFromGame.png" class="img-fluid projectIMG">
                 {% endblock %}
             </div>
         </div>
@@ -58,6 +58,7 @@
         {% block mechanic_info %}
         <p>info about mechanic</p>
         {% endblock %}
+        
         <a class="btn btn-outline-dark btn-lg codeButton" data-toggle="collapse" href="#block1"
             role="button" aria-expanded="false" aria-controls="block1">CODE</a>
         <div class="col codeSection">
@@ -69,6 +70,19 @@
                 </div>
             </div>
         </div>
+
+        <a class="btn btn-outline-dark btn-lg codeButton" data-toggle="collapse" href="#block1B"
+            role="button" aria-expanded="false" aria-controls="block1B">CODE</a>
+        <div class="col codeSection">
+            <div class="collapse multi-collapse" id="block1B">
+                <div class="card card-body">
+                    {% block mechanic_codeE %}
+                    <p>CODE</p>
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 {% endblock %}

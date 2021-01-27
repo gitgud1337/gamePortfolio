@@ -114,3 +114,9 @@ body {
 .icon:hover {
     color: #ffffff;
 }
+
+.mobileNavButton {
+    background: #ab9771;
+    color: #ffffff;
+    max-height: 25px;
+}
