@@ -18,6 +18,7 @@
 </header>
 {% endblock %}
 
+<!--THE PROJECT TITLE ETC-->
 {% block body_content %}
 <div class="mw-100 text-center projectIntro">
     <div class="row">
@@ -36,13 +37,18 @@
             </p>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <p class="lead">
-                {% block project_repo %}
-                {% endblock %}
-            </p>
-        </div>
+    <div class="col-md-12">
+        {% block project_tech %}
+            <ul class="mechList">
+                <li>Modular</li>
+                <li>Easy to use</li>
+                <li>Cool</li>
+            </ul>
+        {% endblock %}
+    </div>
+    <div class="col-md-12">
+        {% block project_repo %}
+        {% endblock %}
     </div>
 </div>
 
