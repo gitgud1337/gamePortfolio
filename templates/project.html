@@ -46,6 +46,7 @@
             </ul>
         {% endblock %}
     </div>
+    <hr class="mechLine">
     <div class="col-md-12">
         {% block project_repo %}
         {% endblock %}
@@ -93,12 +94,9 @@
                 </div>
             </div>
         </div>
-
         <hr class="mechLine">
-
         {% block mechanic_codeEXTRA %}
         {% endblock %}
-
     </div>
 </div>
 {% endblock %}
@@ -144,11 +142,13 @@
             </div>
         </div>
         <hr class="mechLine">
+        {% block mechanic_codeEXTRA2 %}
+        {% endblock %}
     </div>
 </div>
 {% endblock %}
 
-<!--BLOCK4-->
+<!--BLOCK3-->
 {% block mechanic3 %}
 <div class="container">
     <div class="col rounded projectMechanic">
@@ -189,6 +189,8 @@
             </div>
         </div>
         <hr class="mechLine">
+        {% block mechanic_codeEXTRA3 %}
+        {% endblock %}
     </div>
 </div>
 {% endblock %}
@@ -234,6 +236,8 @@
             </div>
         </div>
         <hr class="mechLine">
+        {% block mechanic_codeEXTRA4 %}
+        {% endblock %}
     </div>
 </div>
 {% endblock %}
@@ -279,6 +283,8 @@
             </div>
         </div>
         <hr class="mechLine">
+        {% block mechanic_codeEXTRA5 %}
+        {% endblock %}
     </div>
 </div>
 {% endblock %}
