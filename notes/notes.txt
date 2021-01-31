@@ -103,3 +103,23 @@ https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
         </div>
     </div>
 -----------------------------------------------------------------------------------------------------------
+
+div style="background-image: url('static/art/img/bg.png');"
+
+-----------------------------------------------------------------------------------------------------------
+
+<!--<div class="carousel slide" data-ride="carousel" style="margin-top: 40px; margin-left: 18px;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="static/art/img/smallerPrintFromGame.png" class="mainIMG">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="static/art/img/smallerPrintFromGame.png" class="mainIMG">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="static/art/img/smallerPrintFromGame.png" class="mainIMG">
+                      </div>
+                    </div>
+                  </div>-->
+                  
+-----------------------------------------------------------------------------------------------------------
