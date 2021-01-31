@@ -63,7 +63,7 @@ body {
 }
 
 .projectMechanic {
-    margin-top: 4rem;
+    margin-top: 8rem;
     font-size: 1.25rem;
     text-align: center;
     padding: 1rem;
@@ -98,9 +98,9 @@ body {
 .nav-link:hover { color: #ffffff; }
 
 .mainIMG {
-    /*border-width: 8px;
+    border-width: 8px;
     border-style: solid;
-    border-color: #1c1b1a;*/
+    border-color: #1c1b1a;
 }
 
 .projectIMG {
@@ -141,4 +141,11 @@ body {
 
 .btn {
     color: #ab9771;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
 }
