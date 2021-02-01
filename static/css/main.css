@@ -24,7 +24,7 @@ body {
     /*background: #405259;*/
     /*background: #444f45;*/
     /*background: #564c5e;*/
-    background: #3c3342;
+    background: #363533;
 }
 
 .gradient {
@@ -55,11 +55,12 @@ body {
     font-size: 1.25rem;
     text-align: center;
     padding: 8rem;
-    background: rgb(103,71,112);
+    /*background: rgb(103,71,112);
     background: radial-gradient(circle, 
     rgba(103,71,112,1) 0%, 
     rgba(95,115,84,1) 30%, 
-    rgba(74,86,114,1) 100%); 
+    rgba(74,86,114,1) 100%); */
+    background-color: #363533;
 }
 
 .projectMechanic {
@@ -67,7 +68,7 @@ body {
     font-size: 1.25rem;
     text-align: center;
     padding: 1rem;
-    background: #3c3342;
+    background: #363533;
     color: #ab9771;
 }
 
@@ -100,11 +101,14 @@ body {
 .mainIMG {
     border-width: 8px;
     border-style: solid;
-    border-color: #1c1b1a;
+    border-color: #363533;
 }
 
 .projectIMG {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #363533;
 }
 
 .icon {
@@ -133,14 +137,15 @@ body {
 .greetingsCol {
     padding: 12px;
     background-color: #1c1b1a;
-    color: #ab9771;
+    /*color: #ab9771;*/
+    color: #43891a;
     /*border-width: 4px;
     border-style: solid;
     border-color: #ab9771;*/
 }
 
 .btn {
-    color: #ab9771;
+    color: #366e15;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -148,4 +153,8 @@ body {
 }
 .dropdown-menu{
     margin-top: 0;
+}
+
+.greetingsPsych {
+    color: #52a620;
 }
