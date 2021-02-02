@@ -146,6 +146,7 @@ body {
 
 .btn {
     color: #366e15;
+    cursor: crosshair;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -157,4 +158,8 @@ body {
 
 .greetingsPsych {
     color: #52a620;
+}
+
+.crosshair {
+    cursor: crosshair;
 }
